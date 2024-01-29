@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>anant</title>
+  <style>
+    a{
+        color:maroon;
+        
+      
+    }
+    body{
+          background-color: rgba(243, 215, 182, 0.625);
+    }
+    button{
+      background-color: aqua;
+      color: black;
+    }
+    h{
+      text-decoration:black dotted underline;
+      font-style: italic;
+      text-align: end;
+      
+    }
+   textarea{
+       border-width: 2px;
+       border-color: black;
+       border-style:dotted;
+
+    }
+    form{
+      border-width: 2px;
+      border-style: groove;
+      border-color:black;
+    }
+    h{
+       border: 3px solid rgb(103, 103, 24);
+       font-size: 35px;
+       
+       width: 100px;
+       background:white;
+       text-transform: uppercase;
+       text-decoration: none;
+       
+       border-radius:50px;
+       
+      
+    }
+    p{
+      text-decoration: underline;
+      font-size: medium;
+      font-style: normal;
+      font-display: inherit;
+    }
+    
+    
+    #navbar{
+      
+      height: 60px;
+      background-color: black;
+      
+    
+    }
+    #logo{
+      color:goldenrod;
+       font-size: 35px;
+       padding-left: 1px 12px 1px 2px;
+       
+    }
+    a{
+      padding: 2px 12px 2px;
+      margin: 2px 22px;
+      
+    }
+   button{
+    background-color:goldenrod;
+    
+   } 
+   #shiv{
+    flex-direction:row;
+    justify-content:space-evenly;
+    
+   }
+      #box1{
+        background-image:url("https://images.pexels.com/photos/2263936/pexels-photo-2263936.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1 ");
+        background-size: cover;
+        width: 200px;
+        height: 200px;
+        font-size: 25px;
+        
+        
+  
+        text-align: center;
+        border:3px solid black;
+      }
+      #box2{
+        background-image:url("https://cdn.pixabay.com/photo/2016/10/18/21/22/beach-1751455_1280.jpg ");
+        background-size: cover;
+        flex-direction: row;
+        
+        font-size: 20px;
+        width:200px;
+        height: 200px;
+       text-align: center;
+        border:3px solid black;
+        }
+      #box3{
+        background-image:url("https://c4.wallpaperflare.com/wallpaper/431/451/684/the-most-beautiful-picture-of-nature-wallpaper-preview.jpg");
+        font-size:25px;
+       background-size:cover;
+        
+        width: 200px;
+        height: 200px;
+        border: 3px solid black;
+        text-align: center;
+      #name{
+         text-align: center;
+      }
+      .outer{
+        height: 200px;
+        width: 200px;
+        background-color: aqua;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+      }
+      .inner{
+        height: 100px;
+        width: 100px;
+        background-color: aquamarine;
+       
+      }
+      @media (max-width: 600px){
+        
+        div{
+          background-color: red;
+        }
+      }
+      footer{
+        background-color:black;
+        color:white;
+        text-decoration: solid;
+        text-align: center;
+        font-size: 15px;
+      }
+      
+    
+    
+  </style>
+</head>
+<body>
+  
+  <!--hllo i am not-->
+ <h>anant kumar singh</h><br>
+ 
+  <div id="navbar">
+    <a id="logo">anant.in</a>
+    <a>account</a>
+    <a>my cart</a>
+    <a>contact us</a>
+     <input placeholder="search anant.in">
+     <button>search</button>
+  </div>
+
+  <div id="shiv">
+   <div id="box1">anant1</div><br>
+    <div id="box2">anant2</div><br>
+    <div id="box3">anant3</div><br>
+  
+  
+  </div>
+  <div class="outer">
+    <div class="inner"></div>
+  </div>
+  
+ <hr> <p style="color:rgb(1, 1, 17)">this is a paragraph</p> </hr><br>
+  <ol type="a">
+  <li style="color:blue">home</li>
+  <li style="color:rgba(129, 121, 17, 0.563)">about</li>
+  </ol>
+  <ul type="circle">
+    <li style="color:rgb(94, 78, 54)">contacts</li>
+    <li>systemm</li>
+  </ul>
+  <div>
+    <form>
+      <p>fill up the form</p>
+      
+      <div><label name>name</label>
+      <input type ="text"  id="name" placeholder="enter your name" >
+      <br></div>
+      <div><label age>age</label>
+      <input type="number"id="age" placeholder="enter your age"><br></div>
+      <label password>password</label>
+      <input type="password" id="password" placeholder="enter your password"><br>
+      <label captcha>captcha</label>
+      <input type="captcha" id="captcha" place holder="fill up captcha"><br>
+      <label >email</label>
+      <input type="email" id="email"  placeholder="enter your email"><br>
+      <label name>birth date</label>
+      <input type="date" id="date" placeholder="enter your birth date"><br>
+      <label name>blood</label>
+      <input type="blood group" id="blood group"placeholder="enter your blood grp"><br>
+      <p>O</p>
+      <input type="radio" value ="section a" name="section" id="sectionida">section A
+      <p>A</p>
+      <input type="radio" value="section b" name="section" id="sectionidb">section B<BR>
+      <textarea name="type"id=""rows="4" cols="34" placeholder="why DO you want to apply"></textarea><br>
+      <p>your favourite car name is</p><br>
+ <select name="car" id="car"><br>
+      <option value="bmw">bmw</option>
+      <option value="mercediz">mercidiz</option>
+      <option value="thar">thar</option>
+      <option value="scorpio">scorpio</option>
+ </select><br>
+ <button>login</button>
+    </form>
+  
+     
+    
+   </div>
+ <div><table><tr>
+      <th>sn.no</th>
+      <th>instagram</th>
+      <th>yahoo</th>
+      <th>google</th>
+      <th>facebook</th>
+      <th>college</th><div>
+  </tr>
+  <tr>
+      <td>1</td>
+      <td>social media</td>
+      <td>chrome</td>
+      <td>chrome</td>
+      <td>social media</td>
+      <td>study center</td></tr<div>
+   </tr></table></div>
+  
+      <a href="https://www.google.com">clik here to google</a> <br>
+      <a href="https://www.yahoo.com">clik here to yahoo</a> <br>
+      <a href="https://www.facebook.com">clik here to facebook</a> <br>
+      <a href="https://www.flipkart.com">clik here to flipkart</a>
+ </header>
+ <hr> <div>currently i m study in bhubaneshwar </div> </hr>
+ <a href="https://www.gita.edu.in">click here to go to my clg</a>
+ <br> <hr> 
+ <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFePk7ouwAX21HVhnewEbaFgOhn3Yd0yRUNhMeNC6xdA&s"> </br> </hr>
+ 
+ <br> <hr> <img src="https://images.unsplash.com/photo-1611262588024-d12430b98920?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW5zdGFncmFtJTIwbG9nb3xlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80"alt="error" width="176px" length="121px">
+</br> </hr>
+<div> <hr> my insta account is here</div> </hr>
+ <a href="https://www.instagram.com">cleak here and go to insta account</a><br>
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/BsqrmY91nUQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+ 
+ <footer>
+  made with &hearts; by anant<br>
+  &#169;<br> you have gone to incognito
+  now you can browse privately<br>
+ </footer>
+</body>
+</html>
